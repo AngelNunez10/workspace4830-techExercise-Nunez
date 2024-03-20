@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+header {
+    background-color:#0B5345;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:450px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:#0B5345;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Find Task </h1>
+</header>
+
+<nav>
+<a href="/webproject/SimpleFormShowTask">My Task</a> <br>
+<a href="/webproject/simpleFormInsert.html">Create Task</a> <br>
+<a href="/webproject/simpleFormSearch.html">Find Task</a> <br>
+<a href="/webproject/simpleFormDelete.html">Delete Task</a> <br>
+</nav>
+
+
+<section>
+	<h1>Search for Tasks by Due Date</h1>
+	
+	<form action="SimpleFormSearch" method="POST">
+	
+		Due Date: <input type="text" name="keyword" placeholder="yyyy-mm-dd"><br><br />
+		
+		<input type="submit" value="Search" />
+	</form>
+
+</section>
+
+<footer>
+Angel Nunez
+</footer>
+</body>
+</html>
